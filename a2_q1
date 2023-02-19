@@ -10,7 +10,7 @@ void Pattern(int n){
         for (int col = 1; col <= row; col++)
         {   
             /* code */
-            cout<<"*";
+            cout<<"* ";
         }
         cout<<endl;
     }
