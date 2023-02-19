@@ -4,7 +4,10 @@ int main (){
     int n;
     cout<<"enter the value of n"<<endl;
     cin>>n;
-    for (int row  = 1; row<=n; row++)
+   if (1 <= n <= 100)
+   {
+  
+   for (int row  = 1; row<=n; row++)
     {
         for (int col  = n ; col>=row; col--)
         {
@@ -13,6 +16,8 @@ int main (){
         }
         cout<<endl;
     }
+   }
+ 
     
     return 0;
 }
